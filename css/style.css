@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:#f1f2f6;
+    height: 80%;
+    width: 100%;
+     
+    
+}
+
+.container {
+    height: 80%;
+    width: 80%;
+    background-color:#ffffff;
+
+}
+
+.first {
+    height: 30rem;
+    width: 30rem;
+
+}
+
+.innercontainer {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+
+}
+
+.subhead {
+
+    font-weight: light;
+    padding-top: .9rem;
+
+
+}
+
+.para {
+    padding-top: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.icon {
+    padding-top: 1.2rem;
+    color: #2ecc71;
+
+}
+
+#color {
+    color: #2ecc71;
+}
+
+#line {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-top: .8rem;
+}
+
+#dollar {
+    padding-top: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#clock {
+
+    padding-top: 1.3rem;
+    padding-bottom: .8rem;
+    opacity: .7;
+
+}
+
+.btn {
+    padding-top: .7rem;
+}
+
+.btn button {
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 32px;
+}
+
+#black {
+    background-color: black;
+    color: white;
+
+}
+
+.small {
+    height: 5.35rem;
+    width: 5.8rem;
+    padding-top: .5rem;
+
+}
+
+.padding {
+    padding-left: 1rem;
+}
+
+/* downside part */
+.foot {
+    display: flex;
+    justify-content: space-around;
+    padding-top:6rem;
+}
+
+.foot i{
+    padding-right: 1rem;
+    opacity: .7;
+}
+
+.foot p{
+    padding-left: 2.3rem;
+}
+
+
+@media only screen and (max-width:1200px){
+
+    .container {
+    height: 100vh;
+    width: 87%;
+    background-color:#ffffff;
+   
+}
+       
+ .first {
+     height: 40%;
+     width: 98%;
+
+     }
+          
+.text{
+                height: 40%;
+              width: 398%;
+
+            }
+            
+.small {
+    height: 7.35rem;
+    width: 10.35rem;
+    padding-top: .5rem;
+
+}
+        .btn button {
+
+              
+              font-size: 9px;
+              padding: 15px 25px;
+             }
+
+    }
+
+     @media only screen and (max-width:770px){
+
+        .container {
+    height: 100vh;
+    width: 100vw;
+    background-color:#ffffff;
+   
+}
+
+.first {
+        height: 67%;
+        width: 60vw;
+
+    }
+            
+    .small {
+    height: 6.35rem;
+    width: 13.46rem;
+    padding-top: .5rem;
+
+}
+
+.text{
+    height: 40%;
+              width: 398%;
+   
+}
+
+/* buttons */
+.btn {
+    display: grid;
+    position: absolute;
+    bottom: 6rem;
+    left: 16rem;
+    padding-top: .7rem;
+}
+
+.btn button {
+
+
+font-size: 9px;
+padding: 15px 25px;
+}
+
+.foot {
+    
+    padding-top:16rem;
+}
+}
+
+
+
+
+
